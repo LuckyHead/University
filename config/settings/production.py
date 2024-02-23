@@ -4,7 +4,10 @@ DEBUG = False
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'production.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'LuckyHead$default',
+        'USER': 'LuckyHead',
+        'PASSWORD': 'qwerty10051983',
+        'HOST': 'LuckyHead.mysql.pythonanywhere-services.com',
     }
 }
